@@ -4,8 +4,7 @@ body{
     width: 100vw;
     margin: 0;
     padding: 0;
-   
- 
+
 }
 
 .navbar{
@@ -14,8 +13,11 @@ body{
     align-items: center;
     max-width: 1100px;
     margin: 0 auto;
-    margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 1100px; 
+    padding: 100px;
+    
+    
 }
 
 
@@ -78,5 +80,50 @@ ul {
 }
 
 
+.hero{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    max-width: 1100px;
+    margin: 0 auto;
     
-    
+}
+
+.text{
+    color: #4D4D4D;
+    font-weight: 500;
+    font-style: semi bold;
+    font-size: 64px;
+    margin: 0 0 6px 0;
+    font-family: inter, sans-serif;
+
+
+}
+
+.text-2{
+    color: #4CAF4F;
+    font-weight: 500;
+    font-style: semi bold;
+    font-size: 64px;
+    font-family: inter, san sans-serif;
+}
+
+.paragrah{
+    color: gray;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 16px;
+    font-family: inter, sans-serif;
+    margin-top: 15px; 
+}
+
+.reg{
+    width: 128px;
+    height: 52px;
+    border-radius: 4px;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 15px;
+}
