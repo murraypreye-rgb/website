@@ -15,6 +15,7 @@ body{
     max-width: 1100px;
     margin: 0 auto;
     margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -73,6 +74,9 @@ ul {
     opacity: 1;
     font-weight: bold;
     font-size: larger;
+    
 }
 
 
+    
+    
