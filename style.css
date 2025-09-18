@@ -8,9 +8,7 @@
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1100px; 
-    padding: 100px;
-    
-    
+    background-color: #F5F7FA;
 }
 
 
@@ -263,7 +261,164 @@ ul {
     color: #717171;
 }
 
+.unseen{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 24px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px 0;
+}
 
-   
+.unseen-text{
+    display: flex;
+    flex-direction: column;
+    gap: 6px; 
+
+}
+
+
+.image-unseen{
+    display: flex;
+    justify-content: flex-end; 
+}
+
+
+.unseen-title{
+    margin: 0 0 4px 0; 
+    font-weight: 600;
+    font-size: 36px;
+    font-style: semi bold;
+    color: #4D4D4D;
+
+}
+
+.paragrah-unseen{
+    margin-top: 0; 
+    font-weight: 400;
+    font-style: regular;
+    font-size: 16px;
+    color: #717171;
+
+}
+
+.button-unseen{
+    width: 151px;
+    height: 52px;
+    border-radius: 4px;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    border: none;
+}
+
+.local{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px ;
+    background-color: #F5F7FA;
+    padding: 70px;
+}
+
+.local-left{
+    font-weight: 500;
+    font-size: 36px;
+    font-style: semi bold;
+    color: #4D4D4D;
+    margin-bottom: 2px;
+}
+
+.local-color{
+    color: #4CAF4F;
+}
+
+.local-text{
+    font-weight: 400;
+    font-size: 16px;
+    font-style: regular;
+    color: #18191F;
+    margin-top: 0px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 0 ;
+}
+
+.footer-h1{
+    font-weight: 600;
+    font-size: 36px;
+    font-style: semi bold;
+    counter-reset: #4D4D4D;
+
+}
+
+.footer-para{
+    font-weight: 400;
+    font-size: 14px;
+    font-style: regular;
+    color: #717171;
+
+}
+
+.footer-button{
+    height: 52px;
+    width: 151px;
+    border-radius: 4px;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    border: none;
+}
+
+.tim{
+    display: flex;
+    align-items: center;
+
+}
+
+.tim-para{
+    font-weight: 500;
+    font-size: 16px;
+    font-style: medium;
+    color: #717171;
+}
+
+.para-2{
+    font-weight: 600;
+    font-size: 20px;
+    font-style: semi bold ;
+    color: #4CAF4F;
+    
+}
+
+.para-3{
+    font-weight: 400;
+    font-size: 16px;
+    font-style: regular;
+    color: #89939E;
+    margin-top: 10px;
+}
+
+.tim-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 41px;
+
+} 
+
+.meet{
+    font-weight: 600;
+    font-size: 20px;
+    font-style: semi bold;
+    color: #4CAF4F;
+}
+
+
+
+
+
 
 
