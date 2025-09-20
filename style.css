@@ -85,7 +85,6 @@ ul {
 .text{
     color: #4D4D4D;
     font-weight: 500;
-    font-style: semi bold;
     font-size: 64px;
     margin: 0 0 6px 0;
     font-family: inter, sans-serif;
@@ -96,9 +95,8 @@ ul {
 .text-2{
     color: #4CAF4F;
     font-weight: 500;
-    font-style: semi bold;
     font-size: 64px;
-    font-family: inter, san sans-serif;
+    font-family: inter, sans-serif;
 }
 
 .paragrah{
@@ -142,7 +140,6 @@ ul {
     margin: 0 0 6px;
     font-weight: 600;
     font-size: 36px;
-    font-style: semi bold;
     color: #4D4D4D;
 }
 
@@ -198,20 +195,20 @@ ul {
 
 .box-1{
     background-color: #FFFFFF;
-    box-shadow: #ABBED133;
+    box-shadow: 0 4px 12px rgba(171,190,209,0.2);
     flex: 0 0 30%;
     padding: 20px;
 }
 .box-2{
     background-color: #FFFFFF;
-    box-shadow: #ABBED133;
+    box-shadow: 0 4px 12px rgba(171,190,209,0.2);
     flex: 0 0 30%;
     padding: 20px;
 }
 
 .box-3{
     background-color: #FFFFFF;
-    box-shadow: #ABBED133;
+    box-shadow: 0 4px 12px rgba(171,190,209,0.2);
     flex: 0 0 30%;
     padding: 20px;
 }
@@ -243,7 +240,13 @@ ul {
 .paragrah-national{
     font-weight: 400;
     font-size: 14px;
-    font-style: regular;
+    color: #717171;
+}
+
+.paragrah-nationa{
+    /* alias for typo'd class in HTML */
+    font-weight: 400;
+    font-size: 14px;
     color: #717171;
 }
 
@@ -350,8 +353,7 @@ ul {
 .footer-h1{
     font-weight: 600;
     font-size: 36px;
-    font-style: semi bold;
-    counter-reset: #4D4D4D;
+    font-style: normal;
 
 }
 
@@ -417,7 +419,7 @@ ul {
 }
 
 
-/* Caring section styles */
+
 .caring{
     max-width: 1100px;
     margin: 48px auto;
