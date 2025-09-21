@@ -79,12 +79,12 @@ ul {
     max-width: 1100px;
     margin: 0 auto;
     background-color: #F5F7FA;
-    
 }
 
 .text{
     color: #4D4D4D;
     font-weight: 500;
+    font-style: semi bold;
     font-size: 64px;
     margin: 0 0 6px 0;
     font-family: inter, sans-serif;
@@ -95,8 +95,9 @@ ul {
 .text-2{
     color: #4CAF4F;
     font-weight: 500;
+    font-style: semi bold;
     font-size: 64px;
-    font-family: inter, sans-serif;
+    font-family: inter, san sans-serif;
 }
 
 .paragrah{
@@ -140,6 +141,7 @@ ul {
     margin: 0 0 6px;
     font-weight: 600;
     font-size: 36px;
+    font-style: semi bold;
     color: #4D4D4D;
 }
 
@@ -195,20 +197,20 @@ ul {
 
 .box-1{
     background-color: #FFFFFF;
-    box-shadow: 0 4px 12px rgba(171,190,209,0.2);
+    box-shadow: #ABBED133;
     flex: 0 0 30%;
     padding: 20px;
 }
 .box-2{
     background-color: #FFFFFF;
-    box-shadow: 0 4px 12px rgba(171,190,209,0.2);
+    box-shadow: #ABBED133;
     flex: 0 0 30%;
     padding: 20px;
 }
 
 .box-3{
     background-color: #FFFFFF;
-    box-shadow: 0 4px 12px rgba(171,190,209,0.2);
+    box-shadow: #ABBED133;
     flex: 0 0 30%;
     padding: 20px;
 }
@@ -240,13 +242,7 @@ ul {
 .paragrah-national{
     font-weight: 400;
     font-size: 14px;
-    color: #717171;
-}
-
-.paragrah-nationa{
-    /* alias for typo'd class in HTML */
-    font-weight: 400;
-    font-size: 14px;
+    font-style: regular;
     color: #717171;
 }
 
@@ -344,6 +340,11 @@ ul {
     margin-top: 0px;
 }
 
+.left-footer{
+    order: -1;
+    margin-right: 20px;
+}
+
 .footer{
     display: flex;
     justify-content: flex-end; 
@@ -353,7 +354,8 @@ ul {
 .footer-h1{
     font-weight: 600;
     font-size: 36px;
-    font-style: normal;
+    font-style: semi bold;
+    counter-reset: #4D4D4D;
 
 }
 
@@ -375,10 +377,12 @@ ul {
 }
 
 .tim{
+    background-color: #F5F7FA;
     display: flex;
     align-items: center;
 
 }
+
 
 .tim-para{
     font-weight: 500;
@@ -386,6 +390,8 @@ ul {
     font-style: medium;
     color: #717171;
 }
+
+
 
 .para-2{
     font-weight: 600;
@@ -427,13 +433,15 @@ ul {
 }
 
 .caring-1{
+    text-align: center;
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 600;
     color: #4D4D4D;
     margin: 0 0 8px 0;
 }
 
 .caring-paragrah{
+    text-align: center;
     color: #717171;
     font-size: 16px;
     margin-top: 6px;
@@ -447,14 +455,15 @@ ul {
 }
 
 .card{
-    flex: 1 1 32%;
     position: relative;
     overflow: visible;
 }
 
-.card-image{
+.card-image-1{
     position: relative;
     overflow: hidden;
+    width: 368px;
+    height: 268px;
     border-radius: 8px;
 }
 
@@ -463,28 +472,188 @@ ul {
     display: block;
 }
 
-.card-image-overlay{
+.card-h3{
+    text-align: center;
+    font-weight: 600;
+    font-style: semi bold;
+    font-size: 20px;
+    color: #717171;
+    margin-bottom: 10px;
+}
+
+
+.card-overlay-1{
+    height: 170px;
+    width: 317px;
     position: absolute;
     left: 50%;
-    top: 100%;
-    transform: translate(-50%, -50%);
-    width: 80%;
+    bottom: 0%; 
+    transform: translate(-50%, 50%); 
+    width: 317px;
+    height: 178px;
     background: #ffffff;
-    padding: 14px;
+    padding: 16px;
     border-radius: 8px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
 
-.card-image-overlay h3{
-    margin: 0 0 6px 0;
-    font-size: 16px;
-    color: #333;
-}
-
-.card-paragrah{
+.card-paragrah-1{
     color: #4CAF4F;
     font-weight: 600;
+    font-style: semi bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+
 }
+
+.card-2{
+    position: relative;
+    overflow: visible;
+}
+
+.card-image-2{
+    position: relative;
+    overflow: hidden;
+    width: 368px;
+    height: 268px;
+    border-radius: 8px;
+}
+
+.card-image img{
+    width: 100%;
+    display: block;
+}
+
+.card-2-h3{
+    text-align: center;
+    font-weight: 600;
+    font-style: semi bold;
+    font-size: 20px;
+    color: #717171;
+    margin-bottom: 10px;
+}
+
+
+.card-overlay-2{
+   height: 170px;
+   width: 317px;
+   position: absolute;
+   left: 50%;
+   bottom: 0%; 
+   transform: translate(-50%, 50%); 
+   width: 317px;
+   height: 178px;
+   background: #ffffff;
+   padding: 16px;
+   border-radius: 8px;
+   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+
+.card-paragrah-2{
+    color: #4CAF4F;
+    font-weight: 600;
+    font-style: semi bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.eu{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F7FA;
+    padding-left: 70px;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.eu-text{
+    font-weight: 600;
+    font-style: semi bold;
+    font-size: 64px;
+    color: #263238;
+}
+
+.eu-paragrah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    text-align: center;
+    width: 178px;
+    height: 52px;
+    border-radius: 2px;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    padding: 10px  20px;
+}
+
+
+.copy{
+    height: 250px;
+    padding-left: 70px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #263238;
+}
+
+.nexcent-copy{
+    display: flex;
+    gap: 5px;
+}
+
+.copy-next{
+    font-weight: 500;
+    color: #FFFFFF;
+    
+}
+
+.copy-text{
+    color: #F5F7FA;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.center-copy{
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -120px;
+}
+.com{
+    font-weight: 600;
+    font-style: semi bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: -10px;
+}
+.copy-list{
+    font-weight: 400;
+    font-size: 14px;
+    color: #F5F7FA;
+    padding: 0;
+    margin: 0;
+}
+
+.copy-list li {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
